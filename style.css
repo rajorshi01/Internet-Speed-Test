@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ab00ff;
+  }
+  
+  #downloadSpeedLabel,#downloadSpeed {
+    margin:2px;
+    width:40%;
+    text-align: center;
+
+  }
+  #downloadSpeed {
+    height: 40px;
+    font-weight: bold;
+  }
+  
+  svg>g>text{
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  button {
+    background-color: #ab00ff;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 200px;
+    border: none;
+    height: 50px;
+  }
+
+  button:hover {
+    background-color: whitesmoke;
+  }
